@@ -92,6 +92,7 @@ SQL was built on a standard but in practice, every engine speaks its own dialect
 - [Drizzle](https://orm.drizzle.team)
 - [GelDB](https://github.com/geldata/gel)
 - [Datafusion](https://github.com/apache/datafusion)
+- [GraphQL](https://graphql.org/learn/schema/)
 
 ---
 
