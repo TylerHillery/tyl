@@ -9,7 +9,7 @@
 
 ## Overview
 
-SQL was built on a standard but in practice, every engine speaks its own dialect. **Tyl** unifies these variations by compiling to multiple targets (Postgres, DuckDB, Snowflake, etc.) from a single, clean, typed source.
+SQL was built on a standard but in practice, every engine speaks its own dialect. **Tyl** unifies these variations by compiling to multiple targets (Postgres, MySQL, SQLite, DuckDB, etc.) from a single, clean, typed source.
 
 
 ###  Key Design Goals
