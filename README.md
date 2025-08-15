@@ -47,6 +47,10 @@ SQL was built on a standard but in practice, every engine speaks its own dialect
     - Raw SQL (e.g., Yesql, aiosql-style)  
     - Query Builder  
     - ORM-ish interfaces
+- [ ] **Different APIs**
+    - SQL API
+    - Relational / DataFrame API
+    - Time Series Query API (e.g. PromQL)
 
 ---
 
@@ -66,17 +70,45 @@ SQL was built on a standard but in practice, every engine speaks its own dialect
 - [What Goes Around Comes Around... and Around...](https://db.cs.cmu.edu/papers/2024/whatgoesaround-sigmodrec2024.pdf)
 - [Apache Calcite: A Foundational Framework for Optimized Query Processing Over Heterogeneous Data Sources](https://arxiv.org/pdf/1802.10233)
 - [A Critique of Modern SQL And A Proposal Towards A Simple and Expressive Query Language](https://www.cidrdb.org/cidr2024/papers/p48-neumann.pdf)
+- [Practical Translators For LR(k) Languages](https://publications.csail.mit.edu/lcs/pubs/pdf/MIT-LCS-TR-065.pdf)
+- [On the Translation of Languages from Left to Right](https://harrymoreno.com/assets/greatPapersInCompSci/2.5_-_On_the_translation_of_languages_from_left_to_right-Donald_E._Knuth.pdf)
+- [Survey and Evaluation of Database Management System Extensibility](https://www.pdl.cmu.edu/PDL-FTP/Database/CMU-CS-23-144.pdf)
+- [Syntax Error Recovery in Parsing Expression Grammars](https://arxiv.org/abs/1806.11150)
+- [SQL Has Problems. We Can Fix Them: Pipe Syntax In SQL](https://research.google/pubs/sql-has-problems-we-can-fix-them-pipe-syntax-in-sql/)
+
+
+### Books
+- [lex & yacc](http://www.nylxs.com/docs/lexandyacc.pdf)
+
 
 ### Videos
 - [CMU DB Group - SQL or Death](https://www.youtube.com/playlist?list=PLSE8ODhjZXjbpOIrZheFWxkYG8HD87xW1)
+- [Why dbt Acquired SDF Building true SQL Comprehension](https://www.youtube.com/watch?v=oE8I2VQsKn4)
 
 ### Docs
 - [The SQL Standard](https://blog.ansi.org/ansi/sql-standard-iso-iec-9075-2023-ansi-x3-135/)
+
+### Articles
+- [Revolutionizing SQL with pipe syntax, now available in BigQuery and Cloud Logging](https://cloud.google.com/blog/products/data-analytics/simplify-your-sql-with-pipe-syntax-in-bigquery-and-cloud-logging)
+- [Runtime-Extensible SQL Parsers Using PEG](https://duckdb.org/2024/11/22/runtime-extensible-parsers.html)
+- [PEP 617 – New PEG parser for CPython](https://peps.python.org/pep-0617/)
+- [The Oximeter Query Language](https://rfd.shared.oxide.computer/rfd/0463)
+- [Simone Willison: Review of SQL Has Problems. We Can Fix Them: Pipe Syntax in SQL](https://simonwillison.net/2024/Aug/24/pipe-syntax-in-sql/)
+
+### Repositories
+- [cpp-peglib](https://github.com/yhirose/cpp-peglib)
+- [rust-peg](https://github.com/kevinmehall/rust-peg)
+- [oxql](https://github.com/oxidecomputer/omicron/tree/main/oximeter/db/src/oxql)
+
+### SQL Testing Tools
+- [sqlsmith](https://github.com/def-/sqlsmith)
+- [sqlancer](https://github.com/sqlancer/sqlancer)
 
 ---
 
 ## Inspiration
 
+- [DuckDB](https://duckdb.org/docs/stable/sql/introduction)
 - [Convex](https://convex.dev)
 - [Malloy](https://github.com/malloydata/malloy)
 - [PRQL](https://prql-lang.org)
