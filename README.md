@@ -126,6 +126,8 @@ SQL was built on a standard but in practice, every engine speaks its own dialect
 - [GelDB](https://github.com/geldata/gel)
 - [Datafusion](https://github.com/apache/datafusion)
 - [GraphQL](https://graphql.org/learn/schema/)
+- [Zig comptime](https://ziglang.org/documentation/master/#comptime)
+- [Mojo compile-time metaprogramming](https://docs.modular.com/mojo/manual/parameters/)
 
 ---
 
