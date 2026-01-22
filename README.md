@@ -95,6 +95,7 @@ SQL was built on a standard but in practice, every engine speaks its own dialect
 - [The Oximeter Query Language](https://rfd.shared.oxide.computer/rfd/0463)
 - [Simone Willison: Review of SQL Has Problems. We Can Fix Them: Pipe Syntax in SQL](https://simonwillison.net/2024/Aug/24/pipe-syntax-in-sql/)
 - [Does OLAP need an ORM](https://clickhouse.com/blog/moosestack-does-olap-need-an-orm)
+- [Parsing SQL](https://tomassetti.me/parsing-sql/)
 
 ### Repositories
 - [cpp-peglib](https://github.com/yhirose/cpp-peglib)
