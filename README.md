@@ -118,6 +118,7 @@ SQL was built on a standard but in practice, every engine speaks its own dialect
 - [Fugue](https://github.com/fugue-project/fugue)
 - [Morel](https://github.com/hydromatic/morel)
 - [SQLGlot](https://github.com/tobymao/sqlglot)
+- [Polyglot](https://github.com/tobilg/polyglot)
 - [Substrait](https://substrait.io)
 - [Dbt + SDF fusion](https://www.getdbt.com)
 - [ANTLR](https://www.antlr.org)
