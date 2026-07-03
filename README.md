@@ -120,6 +120,8 @@ SQL was built on a standard but in practice, every engine speaks its own dialect
 - [SQLGlot](https://github.com/tobymao/sqlglot)
 - [Polyglot](https://github.com/tobilg/polyglot)
 - [Substrait](https://substrait.io)
+- [Substrait Dialect for MLIR](https://github.com/substrait-io/substrait-mlir-contrib/)
+- [LingoDB](https://github.com/lingo-db/lingo-db)
 - [Dbt + SDF fusion](https://www.getdbt.com)
 - [ANTLR](https://www.antlr.org)
 - [Apache Calcite](https://calcite.apache.org)
